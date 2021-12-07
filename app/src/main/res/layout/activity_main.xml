@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/super_puper"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Давай сделаем супер-пупер приложение"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,5 +19,55 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="15"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:hint="Your name"
+        android:textSize="50sp"/>
+    <EditText
+        android:id="@+id/editTextTextPersonPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:ems="15"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPassword"
+        android:hint="Your password"
+        android:textSize="50sp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Let's go"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+    <Switch
+        android:id="@+id/switch_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minWidth="48dp"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <ToggleButton
+        android:id="@+id/ToggleButton_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="Tap me"
+        android:textOn="Super"/>
+
+</LinearLayout>
