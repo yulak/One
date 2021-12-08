@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">One</string>
+    <string name="message">Давай сделаем супер-пупер приложение</string>
+    <string name="your_name">Your name</string>
+    <string name="your_password">Your password</string>
+    <string name="text">Text</string>
+    <string name="phone">Phone</string>
+    <string name="number">number</string>
+    <string name="email_address">Email Address</string>
+    <string name="multiLine">Multi Line</string>
+    <string name="go">Go</string>
+    <string name="tap_me">Tap me</string>
+    <string name="wow">WOW</string>
+
 </resources>
