@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="text"
+            android:hint="@string/text"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="textPersonName"
+            android:hint="@string/your_name"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="phone"
+            android:hint="@string/phone"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="number"
+            android:hint="@string/number"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="textPassword"
+            android:hint="@string/your_password"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_address"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/editTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="15"
+            android:fontFamily="sans-serif-condensed"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:hint="@string/multiLine"
+            android:textSize="50sp"/>
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
